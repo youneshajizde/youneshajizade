@@ -1,0 +1,72 @@
+export const projectData = [
+  {
+    image: "/assets/project5.png",
+    title: "Shelter",
+    desc: "An App where you can find proper houses while being able to buy related products",
+    highlights: [
+      "Ability to reserve houses",
+      "Ability to Buy products",
+      "User Dashboard",
+    ],
+    stacks: [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Framer motion",
+      "Supabase",
+      "Zustand",
+    ],
+    isLive: true,
+  },
+  {
+    image: "/assets/project1.png",
+    title: "EvCon",
+    desc: "Website where you are able to reserve for seminars and events as well as handling them in your dashboard and uploading events",
+    highlights: [
+      "Ability to get tickets",
+      "Ability to upload your events",
+      "User Dashboard",
+      "Admin Dashboard",
+    ],
+    stacks: [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Framer motion",
+      "Supabase",
+      "Zustand",
+    ],
+    isLive: true,
+  },
+  {
+    image: "/assets/project2.png",
+    title: "CareSync",
+    desc: "An app where user can fill appointment for doctors with admin dashboard to manage patients' appointments",
+    highlights: [
+      "Ability to fill appointments",
+      "handling appointments",
+      "admin Dashboard",
+    ],
+    stacks: ["Next.js", "React", "Tailwind", "Appwrite", "Context api"],
+    islive: true,
+  },
+  {
+    image: "/assets/project3.jpg",
+    title: "Guardian",
+    desc: "A simple newspaper website with smooth category searching and handling",
+    highlights: ["Drawer for categories", "Simple routing", "Responsive"],
+    stacks: ["Next.js", "React", "Tailwind", "Strapi"],
+    isLive: true,
+  },
+  {
+    image: "/assets/project4.png",
+    title: "Bazaaro",
+    desc: "A Clean and beautiful e-commerce website for buying products",
+    highlights: [
+      "Cart and buying process",
+      "Using video for showcasing some products",
+    ],
+    stacks: ["Next.js", "React", "Tailwind", "Appwrite", "Context api"],
+    isLive: false,
+  },
+];
