@@ -58,9 +58,9 @@ function Header() {
         <span className="underline font-bold cursor-pointer">Download CV</span>
       </div>
 
-      <ul className="flex items-center gap-6 text-2xl text-gray-200 font-semibold">
+      <ul className="flex items-center gap-6 text-2xl text-gray-200 font-semibold flex-wrap">
         <li className="hover:text-gray-400 transition-all cursor-pointer">
-          Shelterkoooni
+          Shelter
         </li>
         <li className="hover:text-gray-400 transition-all cursor-pointer">
           EvCon
