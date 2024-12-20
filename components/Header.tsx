@@ -60,7 +60,7 @@ function Header() {
 
       <ul className="flex items-center gap-6 text-2xl text-gray-200 font-semibold">
         <li className="hover:text-gray-400 transition-all cursor-pointer">
-          Shelter
+          Shelterkoooni
         </li>
         <li className="hover:text-gray-400 transition-all cursor-pointer">
           EvCon
