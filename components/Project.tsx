@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Badge } from "./ui/badge";
 import Tech from "./Tech";
 import Link from "next/link";
-import { Github, Radio } from "lucide-react";
+import { Github, Radio, Video } from "lucide-react";
 
 type ProjectProps = {
   image: string;
@@ -73,6 +73,15 @@ function Project({
               Demo
             </Link>
           )}
+          <Link
+            href={image}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
+          >
+            <Video size={17} />
+            Full screen
+          </Link>
         </div>
       </div>
 
