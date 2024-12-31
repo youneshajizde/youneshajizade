@@ -80,7 +80,7 @@ function Project({
             className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
           >
             <Video size={17} />
-            Full screen
+            Screen
           </Link>
         </div>
       </div>
