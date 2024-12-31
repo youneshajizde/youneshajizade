@@ -11,6 +11,8 @@ import { Github, Radio } from "lucide-react";
 type ProjectProps = {
   image: string;
   title: string;
+  githubLink: string;
+  appUrl: string;
   desc: string;
   highlights: string[];
   stacks: string[];
@@ -20,6 +22,8 @@ type ProjectProps = {
 function Project({
   image,
   title,
+  githubLink,
+  appUrl,
   desc,
   highlights,
   stacks,
@@ -37,22 +41,19 @@ function Project({
         {isLive && (
           <Badge className="absolute top-3 left-3 bg-red-500 z-40">LIVE</Badge>
         )}
-        {/* Image */}
-        <Image
-          alt={title}
-          src={image}
-          width={1000}
-          height={1000}
+        <video
           className="w-full h-full object-cover rounded-2xl absolute z-10"
-        />
+          muted
+          loop
+          autoPlay
+          src={image}
+        ></video>
 
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
 
-        {/* Buttons */}
         <div className="absolute inset-0 flex justify-center items-center gap-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 z-30">
           <Link
-            href="https://github.com"
+            href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
@@ -63,7 +64,7 @@ function Project({
 
           {isLive && (
             <Link
-              href="https://example.com"
+              href={appUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"

@@ -8,6 +8,8 @@ function Projects() {
       key={index}
       image={project?.image}
       title={project?.title}
+      githubLink={project?.githubLink}
+      appUrl={project?.appUrl}
       desc={project?.desc}
       highlights={project?.highlights}
       stacks={project?.stacks}
