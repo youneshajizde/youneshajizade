@@ -75,3 +75,22 @@ export const projectData = [
     isLive: false,
   },
 ];
+
+
+export const articles = [
+  {
+    "title": "Understanding React Hooks",
+    "description": "A deep dive into React's powerful feature.",
+    "url": "https://reactjs.org/docs/hooks-intro.html",
+    "tags": ["React", "Frontend"],
+    "date": "2025-01-01"
+  },
+  {
+    "title": "The Rise of AI in Web Development",
+    "description": "How AI is changing the way we build web apps.",
+    "url": "https://example.com/ai-web-development",
+    "tags": ["AI", "Web Development"],
+    "date": "2025-01-02"
+  }
+]
+

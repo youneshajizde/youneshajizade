@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Articles from "@/components/Articles";
 import Experties from "@/components/Experties";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -12,6 +13,7 @@ export default function Home() {
       <section className="w-[100%] md:w-[70%] lg:w-[55%] xl:w-[40%] mx-auto px-5 mt-20 space-y-14 pb-10 ">
         <Header />
         <Projects />
+        <Articles />
         <Experties />
         <Footer />
       </section>
