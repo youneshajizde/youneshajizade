@@ -49,7 +49,7 @@ export const projectData = [
       "https://tmeupacql7ohlveo.public.blob.vercel-storage.com/prVideo1-z0Rc991aJ8NBkEENkStThilPBS5aUb.mp4",
     title: "CareSync",
     githubLink: "https://github.com/youneshajizde/careSync-baas-appwrite",
-    appUrl: "caresync.vercel.app",
+    appUrl: "https://care-sync-appwrite.vercel.app/",
     desc: "An app where user can fill appointment for doctors with admin dashboard to manage patients' appointments",
     highlights: [
       "Ability to fill appointments",
@@ -57,7 +57,7 @@ export const projectData = [
       "admin Dashboard",
     ],
     stacks: ["Next.js", "React", "Tailwind", "Appwrite", "Context api"],
-    islive: true,
+    isLive: true,
   },
 
   {
@@ -75,22 +75,3 @@ export const projectData = [
     isLive: false,
   },
 ];
-
-
-export const articles = [
-  {
-    "title": "Understanding React Hooks",
-    "description": "A deep dive into React's powerful feature.",
-    "url": "https://reactjs.org/docs/hooks-intro.html",
-    "tags": ["React", "Frontend"],
-    "date": "2025-01-01"
-  },
-  {
-    "title": "The Rise of AI in Web Development",
-    "description": "How AI is changing the way we build web apps.",
-    "url": "https://example.com/ai-web-development",
-    "tags": ["AI", "Web Development"],
-    "date": "2025-01-02"
-  }
-]
-
