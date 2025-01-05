@@ -1,7 +1,6 @@
 export const projectData = [
   {
-    image:
-      "https://tmeupacql7ohlveo.public.blob.vercel-storage.com/prVideo2-tIVy4NrYPZBZj70vMX4f6T3NATT3hf.mp4",
+    image: "/assets/Shelter.jpg",
     title: "Shelter",
     githubLink: "https://github.com/youneshajizde/shelter-app",
     appUrl: "shelter.vercel.app",
@@ -22,8 +21,7 @@ export const projectData = [
     isLive: true,
   },
   {
-    image:
-      "https://tmeupacql7ohlveo.public.blob.vercel-storage.com/prVideo3-g0AYZoeSDloufLmGhYUpoP6GtGgAvo.mp4",
+    image: "/assets/Evcon.jpg",
     title: "EvCon",
     githubLink: "https://github.com/youneshajizde/evcon-app",
     appUrl: "evcon.vercel.app",
@@ -45,8 +43,7 @@ export const projectData = [
     isLive: true,
   },
   {
-    image:
-      "https://tmeupacql7ohlveo.public.blob.vercel-storage.com/prVideo1-z0Rc991aJ8NBkEENkStThilPBS5aUb.mp4",
+    image: "/assets/CareSync.jpg",
     title: "CareSync",
     githubLink: "https://github.com/youneshajizde/careSync-baas-appwrite",
     appUrl: "https://care-sync-appwrite.vercel.app/",
@@ -61,8 +58,7 @@ export const projectData = [
   },
 
   {
-    image:
-      "https://tmeupacql7ohlveo.public.blob.vercel-storage.com/prVideo4-rzhmhg2aDEkR32IxArcMV1dgD2mtyQ.mp4",
+    image: "/assets/Bazaaro.jpg",
     title: "Bazaaro",
     githubLink: "https://github.com/youneshajizde/bazaaro-app",
     appUrl: "",

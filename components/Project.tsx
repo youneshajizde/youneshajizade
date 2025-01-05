@@ -41,13 +41,13 @@ function Project({
         {isLive && (
           <Badge className="absolute top-3 left-3 bg-red-500 z-40">LIVE</Badge>
         )}
-        <video
+        <Image
           className="w-full h-full object-cover rounded-2xl absolute z-10"
-          muted
-          loop
-          autoPlay
+          alt="img"
+          width={1000}
+          height={1000}
           src={image}
-        ></video>
+        />
 
         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
 
