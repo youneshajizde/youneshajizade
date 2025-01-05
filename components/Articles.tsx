@@ -91,7 +91,7 @@ function Articles() {
               className="object-cover w-full h-full rounded-2xl"
             />
             {/* Title and user info */}
-            <div className="flex flex-col space-y-3 absolute bottom-4 left-4 right-4 bg-opacity-60 text-white font-semibold p-2 rounded-md">
+            <div className="flex flex-col space-y-3 absolute bottom-3 left-4 right-4 bg-opacity-60 text-white font-semibold p-2 rounded-md">
               <h1 className="text-2xl">{article.title}</h1>
               <h2 className="text-sm">Posted by {article.user.name}</h2>
             </div>
