@@ -55,7 +55,14 @@ function Header() {
           </Link>
         </Button>
 
-        <span className="underline font-bold cursor-pointer">Download CV</span>
+        <Link
+          href={
+            "https://uploadkon.ir/uploads/e9a506_25Grey-Clean-CV-Resume-Photo-2-.pdf"
+          }
+          className="underline font-bold cursor-pointer"
+        >
+          Download CV
+        </Link>
       </div>
 
       <ul className="flex items-center gap-3 text-xl md:text-2xl md:gap-6 text-gray-200 font-semibold flex-wrap">
