@@ -53,12 +53,12 @@ function Project({
 
         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20"></div>
 
-        <div className="absolute inset-0 flex justify-center items-center gap-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 z-30 flex-wrap">
+        <div className="absolute inset-0 flex justify-center items-center gap-1 md:gap-3 opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 z-30 flex-wrap">
           <Link
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
+            className="px-2 md:px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
           >
             <Github size={17} />
             GitHub
@@ -69,7 +69,7 @@ function Project({
               href={appUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
+              className="px-2 md:px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
             >
               <Radio size={17} />
               Demo
@@ -79,7 +79,7 @@ function Project({
             href={videoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
+            className="px-2 md:px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
           >
             <Video size={17} />
             Screen
