@@ -61,7 +61,7 @@ export const projectData = [
   },
 
   {
-    image: "/assets/Bazaaro.jpg",
+    image: "/assets/bazaaro.jpg",
     title: "Bazaaro",
     githubLink: "https://github.com/youneshajizde/bazaaro-app",
     appUrl: "",
