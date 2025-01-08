@@ -3,7 +3,7 @@ export const projectData = [
     image: "/assets/Shelter.jpg",
     title: "Shelter",
     githubLink: "https://github.com/youneshajizde/shelter-app",
-    appUrl: "shelter.vercel.app",
+    appUrl: "https://shelter.vercel.app",
     videoUrl: "https://www.aparat.com/v/jmo4j0v/",
     desc: "An App where you can find proper houses while being able to buy related products",
     highlights: [
@@ -25,7 +25,7 @@ export const projectData = [
     image: "/assets/Evcon.jpg",
     title: "EvCon",
     githubLink: "https://github.com/youneshajizde/evcon-app",
-    appUrl: "evcon.vercel.app",
+    appUrl: "https://evcon.vercel.app",
     videoUrl: "https://www.aparat.com/v/ghf1f6s",
     desc: "Website where you are able to reserve for seminars and events as well as handling them in your dashboard and uploading events",
     highlights: [
