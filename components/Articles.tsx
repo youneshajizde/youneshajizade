@@ -83,7 +83,7 @@ function Articles() {
             <div
               onClick={() => router.push(article.canonical_url)}
               key={index}
-              className="bg-gray-200 rounded-2xl w-full h-[250px] relative"
+              className="bg-gray-200 rounded-2xl w-full h-[250px] relative cursor-pointer"
             >
               <Image
                 src={article.cover_image || placeholderImg}

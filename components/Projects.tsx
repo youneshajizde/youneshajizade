@@ -14,6 +14,7 @@ function Projects() {
       highlights={project?.highlights}
       stacks={project?.stacks}
       isLive={project?.isLive}
+      videoUrl={project?.videoUrl}
     />
   ));
 

@@ -4,6 +4,7 @@ export const projectData = [
     title: "Shelter",
     githubLink: "https://github.com/youneshajizde/shelter-app",
     appUrl: "shelter.vercel.app",
+    videoUrl: "https://www.aparat.com/v/jmo4j0v/",
     desc: "An App where you can find proper houses while being able to buy related products",
     highlights: [
       "Ability to reserve houses",
@@ -25,6 +26,7 @@ export const projectData = [
     title: "EvCon",
     githubLink: "https://github.com/youneshajizde/evcon-app",
     appUrl: "evcon.vercel.app",
+    videoUrl: "https://www.aparat.com/v/ghf1f6s",
     desc: "Website where you are able to reserve for seminars and events as well as handling them in your dashboard and uploading events",
     highlights: [
       "Ability to get tickets",
@@ -47,6 +49,7 @@ export const projectData = [
     title: "CareSync",
     githubLink: "https://github.com/youneshajizde/careSync-baas-appwrite",
     appUrl: "https://care-sync-appwrite.vercel.app/",
+    videoUrl: "https://www.aparat.com/v/sqmph9k",
     desc: "An app where user can fill appointment for doctors with admin dashboard to manage patients' appointments",
     highlights: [
       "Ability to fill appointments",
@@ -62,6 +65,7 @@ export const projectData = [
     title: "Bazaaro",
     githubLink: "https://github.com/youneshajizde/bazaaro-app",
     appUrl: "",
+    videoUrl: "https://www.aparat.com/v/dhsg446",
     desc: "A Clean and beautiful e-commerce website for buying products",
     highlights: [
       "Cart and buying process",

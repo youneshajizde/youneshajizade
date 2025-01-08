@@ -17,6 +17,7 @@ type ProjectProps = {
   highlights: string[];
   stacks: string[];
   isLive?: boolean;
+  videoUrl: string;
 };
 
 function Project({
@@ -28,6 +29,7 @@ function Project({
   highlights,
   stacks,
   isLive,
+  videoUrl,
 }: ProjectProps) {
   return (
     <motion.div
@@ -74,7 +76,7 @@ function Project({
             </Link>
           )}
           <Link
-            href={image}
+            href={videoUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-white text-black rounded-full shadow-lg text-sm hover:bg-gray-200 flex items-center gap-2"
