@@ -19,7 +19,7 @@ export const projectData = [
       "Supabase",
       "Zustand",
     ],
-    isLive: true,
+    isLive: false,
   },
   {
     image: "/assets/Evcon.jpg",
@@ -42,7 +42,7 @@ export const projectData = [
       "Supabase",
       "Zustand",
     ],
-    isLive: true,
+    isLive: false,
   },
   {
     image: "/assets/CareSync.jpg",
