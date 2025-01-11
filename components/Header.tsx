@@ -57,7 +57,7 @@ function Header() {
 
         <Link
           href={
-            "https://uploadkon.ir/uploads/e9a506_25Grey-Clean-CV-Resume-Photo-2-.pdf"
+            "https://uploadkon.ir/uploads/00c111_25Grey-Clean-CV-Resume-Photo-3-.pdf"
           }
           className="underline font-bold cursor-pointer"
         >
